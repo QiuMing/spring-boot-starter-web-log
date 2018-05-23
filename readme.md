@@ -4,12 +4,11 @@
 1、添加依赖
 
 ```
-        <dependency>
-            <groupId>com.ibeiliao</groupId>
-            <artifactId>spring-boot-starter-web-log</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
+<dependency>
+    <groupId>com.ibeiliao</groupId>
+    <artifactId>spring-boot-starter-web-log</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</dependency>
 ```
 
 2、添加配置
