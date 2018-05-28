@@ -20,7 +20,7 @@ web.log:
     exclude-mapping-path: "/files/*;/swagger*;/webjars/*;/favicon.ico;/login;/captcha/*;/v2/api-docs"
     ## 打印header,多个按照';'分隔
     print-header: "Authorization"
-    ## 是否允许打印日志，默认true,建议生成关闭
+    ## 是否允许打印日志，默认true,建议生产关闭
     enable: true
 ```
 

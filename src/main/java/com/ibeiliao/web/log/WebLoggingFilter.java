@@ -35,7 +35,7 @@ public class WebLoggingFilter extends OncePerRequestFilter {
     private ArrayList<Pattern> excludeUrl = new ArrayList<>(8);
 
     /**
-     * 是否开始打印日志的功能
+     * 是否开启打印日志的功能
      */
     private boolean enable = true;
 
