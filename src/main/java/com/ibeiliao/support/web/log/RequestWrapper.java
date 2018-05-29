@@ -1,7 +1,5 @@
-package com.ibeiliao.web.log;
-
+package com.ibeiliao.support.web.log;
 import org.apache.commons.io.input.TeeInputStream;
-
 import javax.servlet.ReadListener;
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;

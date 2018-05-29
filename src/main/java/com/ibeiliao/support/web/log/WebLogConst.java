@@ -1,4 +1,4 @@
-package com.ibeiliao.web.log;
+package com.ibeiliao.support.web.log;
 
 /**
  * 功能：web log 常量

@@ -1,4 +1,4 @@
-package com.ibeiliao.web.log.autoconfigure;
+package com.ibeiliao.support.web.log.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

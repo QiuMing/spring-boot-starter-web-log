@@ -1,7 +1,7 @@
-package com.ibeiliao.web.log.autoconfigure;
+package com.ibeiliao.support.web.log.autoconfigure;
 
-import com.ibeiliao.web.log.WebLogConst;
-import com.ibeiliao.web.log.WebLoggingFilter;
+import com.ibeiliao.support.web.log.WebLogConst;
+import com.ibeiliao.support.web.log.WebLoggingFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

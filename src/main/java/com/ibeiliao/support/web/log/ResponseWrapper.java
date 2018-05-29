@@ -1,4 +1,4 @@
-package com.ibeiliao.web.log;
+package com.ibeiliao.support.web.log;
 
 import org.apache.commons.io.output.TeeOutputStream;
 

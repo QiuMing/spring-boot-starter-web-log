@@ -1,4 +1,4 @@
-package com.ibeiliao.web.log;
+package com.ibeiliao.support.web.log;
 
 import java.io.PrintWriter;
 
