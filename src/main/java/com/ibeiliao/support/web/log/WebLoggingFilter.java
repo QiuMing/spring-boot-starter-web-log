@@ -134,7 +134,7 @@ public class WebLoggingFilter extends OncePerRequestFilter {
             RequestWrapper requestWrapper = (RequestWrapper) request;
             try {
                 String charEncoding = requestWrapper.getCharacterEncoding() != null ? requestWrapper.getCharacterEncoding() : "UTF-8";
-                msg.append("\npayload=").append(new String(requestWrapper.toByteArray(), charEncoding));
+                msg.append("\nRequest Payload=").append(new String(requestWrapper.toByteArray(), charEncoding));
             } catch (UnsupportedEncodingException e) {
                 logger.warn("Failed to parse request payload", e);
             }
@@ -180,7 +180,7 @@ public class WebLoggingFilter extends OncePerRequestFilter {
         msg.append(RESPONSE_PREFIX);
         msg.append("status=").append(response.getStatus()).append(";").append("\n");
         try {
-            msg.append("payload=").append(new String(response.toByteArray(), response.getCharacterEncoding()));
+            msg.append("Response Payload=").append(new String(response.toByteArray(), response.getCharacterEncoding()));
         } catch (UnsupportedEncodingException e) {
             logger.warn("Failed to parse response payload", e);
         }
